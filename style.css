@@ -1,127 +1,157 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
-}
-
 /* Change the link style to underline on hover */
 li a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 .buttonconnexion {
-    background-color: #046FE0;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
+   background-color: #046FE0;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
 }
 
 .buttonconnexion:hover {
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24)
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24)
 }
 
 .header {
-    margin: 0.8%;
-    display: flex;
-    flex-direction: row;
-    float: right;
-    justify-content: flex-end;
+   margin: 0.8%;
+   display: flex;
+   flex-direction: row;
+   float: right;
+   justify-content: flex-end;
 }
 
 .center{
-   display: flex;
-   flex-direction: column;
-   justify-content: baseline;
-   align-items: center;
-   padding: auto;
-   margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  padding: auto;
+  margin: 10%;
 }
 
 .body
 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: auto;
-    min-height: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   padding: auto;
+   min-height: 100%;
 }
 
 .boutonrecherche{
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   flex-direction: row;
 }
 
 
 .barre input{
-    width: 400%;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    padding: auto; 
-    margin: 5%;
-    box-shadow: 2px 5px 2px 0 rgba(0,0,0,0.100);
-    
+   width: 400%;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   padding: auto; 
+   margin: 5%;
+   box-shadow: 2px 5px 2px 0 rgba(0,0,0,0.100);
+   
 }
 
 .barre{
-    padding: auto;
-    margin: auto;
-    width: 50%;
-    display: flex;
-    text-align: center
+   padding: auto;
+   margin: auto;
+   width: 50%;
+   display: flex;
+   text-align: center
 }
 
+.header ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
 
+.header li {
+   float: left;
+}
 
-.ulfooter{
+.header li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+/* Change the link style to underline on hover */
+.header li a:hover {
+   text-decoration: underline;
+}
+
+*{
+    font-family: Arial;
+}
+
+footer {
     position: fixed;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     background-color: lightgrey;
 }
 
+#footer1 {
+    padding: 0.8%;
+    padding-left: 25px;
+    color:grey;
+    border-top: 1px solid grey;
+    font-size: 13px;
+}
 
-.footer{
+#footer2{
+    padding: 0.8%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
 
-    min-height:100vh;
-    display:flex;
-    flex-direction:column; 
-    padding: 0.8% 10px;
-    margin: 0;
-    background-color: lightgrey;
+#footer2 a{
+    color: grey;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#footer2 a:hover {
+    text-decoration: underline;
+}
+
+#gauche {
+    display: flex;
+}
+
+#droite {
+    display: flex;
 }
 
 .logo{
-    padding: auto;
-    margin: auto;
-    display: flex;
-    text-align: center;
-    max-width: 63%;
-    height: auto;
+   padding: auto;
+   margin: auto;
+   display: flex;
+   text-align: center;
+   max-width: 45%;
+   height: auto;
 }
 
 .carres{
-    max-width: 70%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
+   max-width: 70%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
 }
