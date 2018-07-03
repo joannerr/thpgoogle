@@ -47,8 +47,17 @@ li a:hover {
 }
 
 .boutonrecherche{
-   display: flex;
+    display: flex;
    flex-direction: row;
+}
+
+.buttonrecherche{
+   background-color: #F2F2F2;
+   border: none;
+   color: grey;
+   margin-right: 5px;
+   padding: 10px 20px;
+   font-weight: bold;
 }
 
 
@@ -103,22 +112,21 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: lightgrey;
+    background-color: #F2F2F2;
 }
 
 #footer1 {
-    padding: 0.8%;
-    padding-left: 25px;
+    padding: 0.8% 0 0.8% 1%;
     color:grey;
-    border-top: 1px solid grey;
-    font-size: 13px;
+    border-top: 1px solid lightgrey;
+    font-size: 15px;
 }
 
 #footer2{
-    padding: 0.8%;
+    padding: 0.8% 0 0.8% 0;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid grey;
+    border-top: 1px solid lightgrey;
 }
 
 #footer2 a{
